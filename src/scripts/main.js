@@ -1,6 +1,6 @@
 AOS.init();
 
-const dataDoEvento = new Date('Dec 25, 2024 19:00:00');
+const dataDoEvento = new Date('November 15, 2024 19:00:00');
 
 const timeStampDoEvento = dataDoEvento.getTime();
 

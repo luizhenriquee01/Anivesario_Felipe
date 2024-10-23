@@ -3,7 +3,7 @@
 .hero {
   padding-top: 64px;
   padding-bottom: 100px;
-  background-image: url(../images/fundo.png);
+  background-image: url(../images/aniversario_felipe.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -40,9 +40,13 @@
 
   @media (max-width: 640px) {
     padding: 40px 0;
+    background-image: url('../images/aniversario_felipe.png');
+    background-size: contain;
+    background-position: top;
 
     &__logo {
       height: 40px;
+      margin-top: 30px;
     }
 
     &__text {
